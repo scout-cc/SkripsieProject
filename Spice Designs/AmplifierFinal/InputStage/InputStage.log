@@ -1,0 +1,18 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\InputStage\InputStage.net
+Start Time: Mon Apr 20 09:14:06 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n010 is floating.
+
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.143 seconds.
+
+Files loaded:
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\InputStage\InputStage.net
+C:\Users\karlh\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\karlh\AppData\Local\LTspice\lib\cmp\standard.bjt
+

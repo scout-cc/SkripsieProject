@@ -1,0 +1,18 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\karlh\AmplifierSkripsie\Spice Designs\1-Band inductor\Draft2.net
+Start Time: Tue Feb  3 21:11:26 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.032 seconds.
+
+Files loaded:
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\1-Band inductor\Draft2.net
+C:\Users\karlh\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+

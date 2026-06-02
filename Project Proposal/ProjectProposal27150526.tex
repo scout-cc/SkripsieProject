@@ -1,0 +1,462 @@
+\documentclass[12pt,a4paper]{report}
+
+%------------------------------------------------
+% PACKAGES
+%------------------------------------------------
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{ragged2e}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{pgfgantt}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\usepackage{siunitx}
+\usepackage{url}
+
+%------------------------------------------------
+% GENERAL FORMATTING
+%------------------------------------------------
+\onehalfspacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\sisetup{
+	detect-all,
+	per-mode=symbol,
+	range-phrase=--,
+	range-units=single
+}
+
+\titleformat{\chapter}[display]
+{\normalfont\bfseries\Large}
+{\chaptertitlename\ \thechapter}{0pt}{\Large}
+
+\titleformat{\section}
+{\normalfont\bfseries\large}{\thesection.}{0.5em}{}
+
+\titleformat{\subsection}
+{\normalfont\bfseries\normalsize}{\thesubsection.}{0.5em}{}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+\captionsetup{font=small,labelfont=bf}
+
+% Roman page numbering for front matter
+\newcommand{\frontmatterpages}{
+	\pagenumbering{roman}
+}
+
+% Arabic page numbering for main matter
+\newcommand{\mainmatterpages}{
+	\clearpage
+	\pagenumbering{arabic}
+}
+
+%------------------------------------------------
+% HEADER / FOOTER
+%------------------------------------------------
+\pagestyle{plain}
+
+%------------------------------------------------
+% CUSTOM COMMANDS
+%------------------------------------------------
+\newcommand{\departmentheader}{
+	\begin{center}
+		{\small \textbf{Department of Mechanical and Mechatronic Engineering}}\\
+		{\small Departement Meganiese en Megatroniese Ingenieurswese}\\
+		{\small Private Bag X1, Matieland, 7602}\\
+		{\small Tel: +27 21 808 4204 \;|\; www.eng.sun.ac.za}
+	\end{center}
+}
+
+\newcommand{\projecttitle}{Development of a High-Power Audio Amplifier with an Automated Thermal Management System}
+\newcommand{\projectmodule}{Mechatronic Project 478}
+\newcommand{\studentname}{Karl Johan Hofmeyr}
+\newcommand{\studentnumber}{27150526}
+\newcommand{\supervisorname}{Ms Tessa Hall}
+\newcommand{\submissiondate}{16 March 2026}
+
+%------------------------------------------------
+% DOCUMENT
+%------------------------------------------------
+\begin{document}
+	
+	%================================================
+	% TITLE PAGE
+	%================================================
+	\begin{titlepage}
+		\departmentheader
+		
+		\vspace{2.5cm}
+		
+		\begin{center}
+			{\bfseries\LARGE \projecttitle \par}
+			\vspace{1.5cm}
+			{\Large \projectmodule \par}
+			\vspace{0.5cm}
+			{\Large Project Proposal \par}
+			\vspace{1.5cm}
+			{\large \studentname \par}
+			{\large Student no \studentnumber \par}
+			\vspace{0.8cm}
+			{\large Supervisor: \supervisorname \par}
+			\vfill
+			{\large \submissiondate \par}
+		\end{center}
+	\end{titlepage}
+	
+	%================================================
+	% FRONT MATTER
+	%================================================
+	\frontmatterpages
+	
+	%================================================
+	% DECLARATION
+	%================================================
+	\chapter*{Declaration}
+	\addcontentsline{toc}{chapter}{Declaration}
+	
+	I have read and understand the Stellenbosch University Policy on Plagiarism and the definitions of plagiarism and self-plagiarism contained in the Policy.
+	
+	I also understand that direct translations are plagiarism, unless accompanied by an appropriate acknowledgement of the source. I also know that verbatim copy that has not been explicitly indicated as such, is plagiarism.
+	
+	I know that plagiarism is a punishable offence and may be referred to the University's Central Disciplinary Committee (CDC) who has the authority to expel me for such an offence.
+	
+	I know that plagiarism is harmful for the academic environment and that it has a negative impact on any profession.
+	
+	Accordingly all quotations and contributions from any source whatsoever (including the internet) have been cited fully (acknowledged); further, all verbatim copies have been expressly indicated as such (e.g.\ through quotation marks) and the sources are cited fully.
+	
+	I declare that, except where a source has been cited, the work contained in this assignment is my own work and that I have not previously (in its entirety or in part) submitted it for grading in this module/assignment or another module/assignment.
+	
+	I declare that I have not allowed, and will not allow, anyone to use my work (in paper, graphics, electronic, verbal or any other format) with the intention of passing it off as his/her own work.
+	
+	I know that a mark of zero may be awarded to assignments with plagiarism and also that no opportunity may be given to submit an improved assignment.
+	
+	\vspace{1cm}
+	
+	Name: \studentname
+	
+	Student no: \studentnumber
+	
+	Signature: \hrulefill
+	
+	Date: \submissiondate
+	
+	%================================================
+	% EXECUTIVE SUMMARY
+	%================================================
+	\section*{\Large Executive Summary}
+	\addcontentsline{toc}{chapter}{Executive Summary}
+	
+	\begin{center}
+		\renewcommand{\arraystretch}{1.2}
+		\setlength{\tabcolsep}{6pt}
+		\small
+		\begin{tabular}{|p{0.82\textwidth}|}
+			\hline
+			\centering\textbf{Title of Project}\tabularnewline
+			\hline
+			Development of a High-Power Audio Amplifier with an Automated Thermal Management System
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{Objectives}\tabularnewline
+			\hline
+			Design and construct a high-power audio amplifier with a three-band equaliser, a thermal management system to monitor and regulate temperature, and a real-time user interface to provide user feedback.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{What is current practice and what are its limitations?}\tabularnewline
+			\hline
+			Most modern amplifiers are Class AB amplifiers that are typically integrated into audio systems rather than existing as stand-alone units. This integration limits the physical size of the amplifier and its ability to dissipate heat effectively.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{What is new in this project?}\tabularnewline
+			\hline
+			This project will evaluate multiple amplifier classes and implement real-time thermal control.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{If the project is successful, how will it make a difference?}\tabularnewline
+			\hline
+			The project will establish whether an affordable high power amplifier with active thermal control and audio equalisation elements could be implemented.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{What are the risks to the project being a success? Why is it expected to be successful?}\tabularnewline
+			\hline
+			The project may exceed the allocated budget and planned timeline, and the construction of the amplifier may prove to be technically challenging.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{What contributions have/will other students made/make?}\tabularnewline
+			\hline
+			A previous student previously attempted a similar project and identified several areas where difficulties may arise. Some components from that project have also been made available by the supervisor.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{Which aspects of the project will carry on after completion and why?}\tabularnewline
+			\hline
+			The design principles and simulation methods developed during this project will be used for future personal amplifier projects. The knowledge gained in amplifier topology selection, filter design, and system modelling will allow further refinement of high-power audio amplifiers beyond this project.
+			\tabularnewline
+			\hline
+			
+			\centering\textbf{What arrangements have been/will be made to expedite continuation?}\tabularnewline
+			\hline
+			All findings of this project will be documented and archived for future use. The simulation models developed in LTSpice will be structured so that key parameters can be easily modified for future amplifier designs. 
+			\tabularnewline
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	%================================================
+	% MAIN MATTER
+	%================================================
+	\mainmatterpages
+	
+	\chapter*{}
+	\vspace{-9em}
+	\section{Introduction}
+	
+	Audio amplification started out in the early 20th century as a need to boost weak electrical signals created by early telephones and radios to a level where it was possible to transmit such signals over long distances \cite{horowitz_hill}. Early audio amplifiers were constructed using vacuum tubes \cite{self_audio_amplifier_design}, such as the Audion Triode introduced by Lee de Forest. Vacuum tube amplifiers were then implemented in various industries, from broadcasting to musical amplification and even early hi-fi systems.
+	
+	In 1947 the transistor was developed at Bell laboratories which started a major shift in audio amplification \cite{bardeen_transistor}. By 1970, most vacuum tube amplifiers had been replaced by transistor-based amplifiers for its numerous benefits, namely, the decrease in size, heat generation and cost.
+	
+	As technology matured, engineers experimented with various transistor configurations and developed different amplifier classes. Class AB amplifiers are the most popular in hi-fi audio applications for it's beneficial power consumption and build cost \cite{self_audio_amplifier_design}.
+	
+	Modern amplifiers are used largely in home audio systems, movie theaters and musical instrument amplification. For my project, I will design and construct one of these amplifiers whilst taking careful consideration to cost, thermal efficiency, power consumption and audio quality.
+	
+	\section{Objectives}
+	
+	This project aims to develop and construct a high-power audio amplifier. The objectives of the project are:
+	
+	\begin{itemize}
+		\item Design and construct a high-power audio amplifier capable of delivering at least \SI{75}{\watt} RMS into an \SI{8}{\ohm} load.
+		
+		\item Implement a three-band graphic equaliser to allow user control over bass, midrange, and treble frequencies.
+		
+		\item Develop a thermal monitoring and control system to regulate amplifier temperature and ensure reliable operation.
+		
+		\item Implement a graphical user interface providing real-time feedback on the operating state of the system.
+	\end{itemize}
+	
+	\section{Motivation}
+	
+	Audio amplification plays an important role in modern society and is used in a wide range of applications, including radio broadcasting, home entertainment systems, cinema sound systems, and musical instrument amplification. As a result, audio amplifiers form a fundamental component of many communication and entertainment technologies.
+	
+	Over time, improvements in audio technology have influenced the way people perceive sound quality. Modern listeners are accustomed to higher fidelity audio reproduction than in the past, and expectations regarding sound clarity and performance have increased accordingly.
+	
+	This increased expectation for audio quality has contributed to a growing demand for high-fidelity audio equipment. Market research indicates that consumers are increasingly willing to pay higher prices for audio systems that provide improved sound quality \cite{audiophile_market_growth}. Enthusiasts who place particular emphasis on sound quality are often referred to as audiophiles.
+	
+	The continued demand for high-quality audio equipment motivates further development of audio amplifier technology. Designing an amplifier that delivers high output power while maintaining good thermal management and system efficiency turns out to be an engineering problem.
+	
+	\section{Planned Activities}
+	
+	The following activities relate to how the objectives will be achieved as stated in this proposal. Time and cost estimates are discussed later:
+	
+	\subsection{Literature Review}
+
+	Review literature on audio amplifier design techniques and identify the amplifier classes most commonly used in modern applications. Review literature on graphic equaliser design and implementation. Review literature on predictive thermal control methods for electronic systems.
+	
+	\subsection{Compile Design Requirements}
+	
+	Identify the design requirements associated with the intended use of the amplifier. Establish performance criteria that will be used to evaluate potential equaliser designs and amplifier configurations.
+	
+	\subsection{Concept Generation and Selection}
+	
+	Generate concepts based on my own engineering knowledge as well as the information gathered from the literature review. Choose a concept based on the criteria mentioned in the design requirements.
+	
+	\subsection{Simulate Concept}
+	
+	Simulate the selected concept using appropriate software tools in order to evaluate feasibility and predict system performance before physical implementation. Supporting hand calculations will also be completed to verify the validity of the simulation results and to demonstrate the feasibility of the proposed design.
+	
+	\subsection{Demonstrate Physical Subsystems}
+	
+	Construct and test demonstration circuits for key subsystems of the design. Compare the measured performance of these subsystems with the predicted simulation results.
+	
+	\subsection{PCB Manufacturing}
+	
+	Design and manufacture printed circuit boards (PCBs) for the final implementation of the system.
+	
+	\subsection{Assembly and Testing of Final Product}
+	
+	Assemble the final system once the PCBs have been manufactured. Test the completed amplifier and compare its measured performance with the simulation results.
+	
+	\subsection{Finalise Report}
+	
+	Document the entire project and compile the findings into a final report. Particular attention will be given to documenting the procedures and results associated with each activity. A final conclusion will be drawn regarding the success of the selected design.
+	
+	\section{Project Risk Assessment}
+	
+	The significant risks posed against the completion of the product are mentioned in this section.
+	
+	The primary risk to the completion of this project is the mismanagement of time. Whilst working on this project, I will be busy with multiple other subjects in my final year of university. Poor time management could result in delays and possibly even an incomplete project. To mitigate risk, a Gantt chart is generated to help track project progress and regular meetings with the project supervisor will be held to track milestone progress.
+	
+	Another risk to the project, is whether it is technically possible to construct an amplifier given the monetary constraints posed on the project by the university. Therefore, multiple simulations and cost estimates will be done to determine the cost before construction is done to reduce wasted resources from failed designs.
+	
+	Finally, if careful concept selection is not performed during the design stage, an impractical design may be pursued. If such issues are only identified at a late stage in the project, significant redesign may be required. This risk will be mitigated through careful evaluation of design concepts during the concept selection stage.
+	
+	\section{Conclusions}
+	
+	This proposal presents the planned development of a high-power audio amplifier with integrated equalisation, thermal monitoring, and user feedback capabilities. The project will investigate whether an amplifier capable of delivering at least \SI{75}{\watt} RMS into an \SI{8}{\ohm} load.
+	
+	The project is valuable because it addresses a practical engineering problem involving audio performance, thermal management, and system integration.
+	
+	The resources available to support the project include relevant literature, simulation software, supervisor guidance, and selected components from a previous related project.
+	
+	It is concluded that the proposed project is both worthwhile and feasible, and that it offers a suitable basis for the design and development of a high-power audio amplifier with automated thermal management.
+	
+	%================================================
+	% APPENDIX
+	%================================================
+	\appendix
+	
+	\section*{Appendix A: Planning Details}
+	\addcontentsline{toc}{section}{Appendix A: Planning Details}
+	
+	This appendix gives the estimated cost to complete the project in Table~\ref{tab:costs} and a Gantt chart for all activities in Figure~\ref{fig:gantt}.
+	
+	%------------------------------------------------
+	% COST TABLE
+	%------------------------------------------------
+	\begin{table}[H]
+		\centering
+		\caption{Estimated Cost per Activity}
+		\label{tab:costs}
+		\scriptsize
+		\setlength{\tabcolsep}{3pt}
+		\renewcommand{\arraystretch}{1.2}
+		
+		\begin{tabular}{|p{2.8cm}|p{0.8cm}|p{1.1cm}|p{1.2cm}|p{1.1cm}|p{1.2cm}|p{0.8cm}|p{1.1cm}|p{1.2cm}|p{1.2cm}|}
+			\hline
+			\textbf{Activity} &
+			\multicolumn{2}{c|}{\textbf{\shortstack{Engineering\\Time}}} &
+			\textbf{\shortstack{Running\\Costs}} &
+			\textbf{\shortstack{Facility\\Use}} &
+			\textbf{\shortstack{Capital\\Costs}} &
+			\multicolumn{2}{c|}{\textbf{\shortstack{MMW\\Labour}}} &
+			\textbf{\shortstack{MMW\\Material}} &
+			\textbf{Total} \\
+			\cline{2-3}\cline{7-8}
+			& \centering\textbf{hr} & \centering\textbf{R}
+			& \centering\textbf{R}
+			& \centering\textbf{R}
+			& \centering\textbf{R}
+			& \centering\textbf{hr}
+			& \centering\textbf{R}
+			& \centering\textbf{R}
+			& \centering\textbf{R} \tabularnewline
+			\hline
+			Review Literature & 40 & 18000 & 750 & 0 & 0 & 0 & 0 & 0 & 18750 \\
+			Identify Requirements & 30 & 13500 & 0 & 0 & 0 & 0 & 0 & 0 & 13500 \\
+			Generate Concepts & 25 & 11250 & 0 & 0 & 0 & 0 & 0 & 0 & 11250 \\
+			Evaluate Concepts & 15 & 6750 & 0 & 0 & 0 & 0 & 0 & 0 & 6750 \\
+			Simulate Concept & 100 & 45000 & 0 & 0 & 0 & 0 & 0 & 0 & 45000 \\
+			Demonstrate Subsystems & 60 & 27000 & 0 & 2250 & 0 & 0 & 0 & 0 & 29250 \\
+			Manufacture PCB's & 40 & 18000 & 0 & 0 & 0 & 0 & 0 & 0 & 18000 \\
+			Assemble Final Product & 40 & 18000 & 0 & 1500 & 0 & 0 & 0 & 0 & 19500 \\
+			Finalise Report & 90 & 40500 & 0 & 0 & 0 & 0 & 0 & 0 & 40500 \\
+			\hline
+			\textbf{TOTAL} & \textbf{440} & \textbf{198000} & \textbf{750} & \textbf{3750} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{202500} \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	%------------------------------------------------
+	% GANTT CHART
+	%------------------------------------------------
+	\begin{landscape}
+		\begin{figure}[H]
+			\centering
+			\caption{Gantt Chart for Project Activities}
+			\label{fig:gantt}
+			
+			\begin{ganttchart}[
+				x unit=0.9cm,
+				y unit chart=0.7cm,
+				vgrid,
+				hgrid,
+				title height=1,
+				title label font=\footnotesize\bfseries,
+				bar label font=\footnotesize,
+				bar/.append style={fill=gray!50},
+				group/.append style={fill=gray!30}
+				]{1}{20}
+				
+				\gantttitle{Jun}{4}
+				\gantttitle{Jul}{4}
+				\gantttitle{Aug}{4}
+				\gantttitle{Sep}{4}
+				\gantttitle{Oct}{4} \\
+				
+				\ganttbar{Review Literature}{1}{1} \\
+				\ganttbar{Identify Requirements}{2}{2} \\
+				\ganttbar{Generate Concepts}{3}{3} \\
+				\ganttbar{Evaluate Concepts}{4}{4} \\
+				\ganttbar{Simulate Concepts}{5}{7} \\
+				\ganttbar{Demonstrate Subsystems}{8}{9} \\
+				\ganttbar{Manufacture PCB's}{10}{10} \\
+				\ganttbar{Assemble Final Product}{11}{11} \\
+				\ganttbar{Finalise Report}{12}{15}
+				
+			\end{ganttchart}
+		\end{figure}
+	\end{landscape}
+	
+	\begin{thebibliography}{9}
+		
+		\bibitem{self_audio_amplifier_design}
+		D. Self,
+		\textit{Audio Power Amplifier Design Handbook},
+		5th ed.,
+		Oxford, UK: Focal Press, 2013.
+		
+		\bibitem{horowitz_hill}
+		P. Horowitz and W. Hill,
+		\textit{The Art of Electronics},
+		3rd ed.,
+		Cambridge, UK: Cambridge University Press, 2015.
+		
+		\bibitem{sedra_smith}
+		A. S. Sedra and K. C. Smith,
+		\textit{Microelectronic Circuits},
+		7th ed.,
+		New York, NY: Oxford University Press, 2015.
+		
+		\bibitem{bardeen_transistor}
+		J. Bardeen and W. H. Brattain,
+		"The transistor, a semiconductor triode,"
+		\textit{Physical Review},
+		vol. 74, no. 2, pp. 230--231, 1948.
+		
+		\bibitem{britannica_audion}
+		Encyclopaedia Britannica,
+		"Audion vacuum tube,"
+		Available: \url{https://www.britannica.com/technology/Audion}.
+		Accessed: 8 March 2026.
+		
+		\bibitem{audiophile_market_growth}
+		Data Insights Market,
+		\textit{Audiophile-Grade Speakers Market Report},
+		2024. Available at:
+		\url{https://www.datainsightsmarket.com/reports/audiophile-grade-speakers-1313015}
+		(Accessed: 8 March 2026).
+		
+	\end{thebibliography}
+	
+\end{document}

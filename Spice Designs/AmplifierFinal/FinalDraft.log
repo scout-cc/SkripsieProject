@@ -1,0 +1,30 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\FinalDraft.net
+Start Time: Sun Mar 29 13:18:56 2026
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\FinalDraft.net(4): Sub-circuit name listed twice. This is most likely because the corresponding symbol contains the name in more than one attribute.
+X§U4 Vin N001 Equaliser Equaliser C1=0.056uF C2=3.3uF R1=68k R2=510 BOOST=1m CUT=20k ;§pnba Vin)Vout
+                        ^^^^^^^^^
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\FinalDraft.net(5): Sub-circuit name listed twice. This is most likely because the corresponding symbol contains the name in more than one attribute.
+X§U5 N001 N002 Equaliser Equaliser C1=3900pF C2=0.22uF R1=68k R2=470 BOOST=20k CUT=1m ;§pnba Vin)Vout
+                         ^^^^^^^^^
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\FinalDraft.net(6): Sub-circuit name listed twice. This is most likely because the corresponding symbol contains the name in more than one attribute.
+X§U6 N002 Vout Equaliser Equaliser C1=330pF C2=0.012uF R1=51k R2=510 BOOST=1m CUT=20k ;§pnba Vin)Vout
+                         ^^^^^^^^^
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.080 seconds.
+
+Files loaded:
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\FinalDraft.net
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\AmplifierFinal\Equaliser.sub
+C:\Users\karlh\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+

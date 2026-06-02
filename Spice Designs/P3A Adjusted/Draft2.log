@@ -1,0 +1,60 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\Draft2.net
+Start Time: Tue Jun  2 18:19:29 2026
+Options:plotwinsize=0
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 13.701 seconds.
+
+Files loaded:
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\Draft2.net
+C:\Users\karlh\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\BC846.lib
+C:\Users\karlh\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+Fourier components of V(Out+)
+N-Period=1
+DC component:-0.0584051
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+03	 1.864e+01	 1.000e+00	  -88.00°	    0.00°
+    2   	 2.000e+03	 1.667e-03	 8.944e-05	    0.86°	   88.86°
+    3   	 3.000e+03	 6.625e-04	 3.555e-05	  -84.61°	    3.39°
+    4   	 4.000e+03	 6.642e-05	 3.564e-06	    1.95°	   89.95°
+    5   	 5.000e+03	 1.244e-05	 6.674e-07	   52.97°	  140.97°
+    6   	 6.000e+03	 2.145e-05	 1.151e-06	   -2.29°	   85.71°
+    7   	 7.000e+03	 4.789e-06	 2.570e-07	  -31.82°	   56.18°
+    8   	 8.000e+03	 1.351e-05	 7.251e-07	   -5.84°	   82.16°
+    9   	 9.000e+03	 1.597e-06	 8.568e-08	  -71.73°	   16.27°
+Partial Harmonic Distortion: 0.009633%
+Total Harmonic Distortion:   0.009644%
+
+Fourier components of V(Out-)
+N-Period=1
+DC component:-0.0563787
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+03	 1.863e+01	 1.000e+00	   92.04°	    0.00°
+    2   	 2.000e+03	 1.650e-03	 8.854e-05	    1.94°	  -90.09°
+    3   	 3.000e+03	 6.626e-04	 3.556e-05	   95.44°	    3.40°
+    4   	 4.000e+03	 6.663e-05	 3.575e-06	    5.03°	  -87.00°
+    5   	 5.000e+03	 1.240e-05	 6.653e-07	 -127.10°	 -219.13°
+    6   	 6.000e+03	 2.149e-05	 1.153e-06	    4.22°	  -87.82°
+    7   	 7.000e+03	 4.788e-06	 2.570e-07	  148.19°	   56.16°
+    8   	 8.000e+03	 1.345e-05	 7.217e-07	    1.92°	  -90.12°
+    9   	 9.000e+03	 1.643e-06	 8.815e-08	  108.63°	   16.60°
+Partial Harmonic Distortion: 0.009549%
+Total Harmonic Distortion:   0.009560%
+
