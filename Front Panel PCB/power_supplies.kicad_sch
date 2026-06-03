@@ -3202,6 +3202,12 @@
 		(uuid "2d42d962-f6ca-4a13-b0e7-0e91b93706e4")
 	)
 	(junction
+		(at 172.72 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30078845-3935-4ae0-b6cf-c173a0bf42da")
+	)
+	(junction
 		(at 55.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3272,6 +3278,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de8ab96-dda6-4869-9fdb-54dca0c961d5")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f6a87f8-2a36-43a7-8aa7-6f5ea14a07df")
 	)
 	(junction
 		(at 34.29 165.1)
@@ -3577,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 185.42 27.94)
+			(xy 125.73 27.94) (xy 172.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3734,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "238739dd-bfb5-4b04-b261-3f3585e3723f")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28258a0b-9954-47e6-88b4-f7685678ad93")
 	)
 	(wire
 		(pts
@@ -4867,6 +4889,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 27.94) (xy 185.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4a4939-05a1-41ba-a246-4eac432508ab")
+	)
+	(wire
+		(pts
 			(xy 72.39 162.56) (xy 72.39 165.1)
 		)
 		(stroke
@@ -4927,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 158.75 71.12)
+			(xy 125.73 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6734,6 +6766,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 151.13 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4962c959-1015-408c-a967-618624e93c02")
+		(property "Reference" "#FLG05"
+			(at 151.13 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 151.13 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 151.13 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64b617a1-a91a-493b-a8e3-f3ccd43dedfa")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 231.14 90.17 270)
 		(unit 1)
@@ -7308,6 +7418,84 @@
 			(project "FrontPanelDesign"
 				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172.72 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc0ded5-20f2-4590-9849-e56cabd7194e")
+		(property "Reference" "#FLG04"
+			(at 172.72 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.72 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d16e4a1e-4c4d-4173-8b55-21f2f8632343")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
