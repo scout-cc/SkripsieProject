@@ -677,6 +677,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -697,9 +705,14 @@
         "filename": "power_supplies.kicad_sch",
         "name": "Power Supplies",
         "uuid": "79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+      },
+      {
+        "filename": "stlink.kicad_sch",
+        "name": "STM32 Setup",
+        "uuid": "2c485bcd-ad9d-4f3d-9048-702c9acf2265"
       }
     ],
-    "used_designators": "C28-49,#FLG4-5,J1,R17-46,#PWR18,#PWR49-62,Q1-20,RV1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -714,6 +727,10 @@
     [
       "79626054-a4b7-4da2-97a1-0bdbb09a0a07",
       "Power Supplies"
+    ],
+    [
+      "2c485bcd-ad9d-4f3d-9048-702c9acf2265",
+      "STM32 Setup"
     ]
   ],
   "text_variables": {},

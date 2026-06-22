@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\Draft2.net
-Start Time: Tue Jun  2 18:19:29 2026
+Circuit: C:\Users\karlh\SkripsieProject\Spice Designs\P3A Adjusted\Draft2.net
+Start Time: Sat Jun 13 11:51:38 2026
 Options:plotwinsize=0
 solver = Normal
 Maximum thread count: 16
@@ -14,12 +14,12 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 13.701 seconds.
+Total elapsed time: 19.025 seconds.
 
 Files loaded:
-C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\Draft2.net
+C:\Users\karlh\SkripsieProject\Spice Designs\P3A Adjusted\Draft2.net
 C:\Users\karlh\AppData\Local\LTspice\lib\cmp\standard.bjt
-C:\Users\karlh\AmplifierSkripsie\Spice Designs\P3A Adjusted\BC846.lib
+C:\Users\karlh\SkripsieProject\Spice Designs\P3A Adjusted\BC846.lib
 C:\Users\karlh\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
 Fourier components of V(Out+)

@@ -5126,6 +5126,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 237.49 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03bcd747-aeff-45b0-b3a6-212fd06a41a0")
+		(property "Reference" "J8"
+			(at 238.76 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Power To Amp"
+			(at 238.76 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "607fda12-6f51-443f-a405-378b2b646ef6")
+		)
+		(pin "2"
+			(uuid "ab16f34b-51c6-4b47-a6e3-8171c7cf9540")
+		)
+		(pin "3"
+			(uuid "82140a1e-9cb5-4587-a9c8-3eb4bcaf2ff1")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 46.99 156.21 0)
 		(unit 1)
@@ -6428,6 +6513,85 @@
 			(project "FrontPanelDesign"
 				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 232.41 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2f4894-b87d-4359-a750-e167f51ac77e")
+		(property "Reference" "#PWR090"
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 228.6 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 232.41 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bde47339-016b-4007-930e-0a3b5c8bd2d0")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -8328,7 +8492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.7k"
 			(at 87.63 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.7k"
 			(at 219.71 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11185,6 +11349,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 232.41 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd06c93-56a2-498a-bea0-3d616efda171")
+		(property "Reference" "#PWR091"
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5519419-1974-4810-bc5c-803f802e9aca")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 245.11 90.17 0)
 		(unit 1)
@@ -11261,6 +11504,85 @@
 			(project "FrontPanelDesign"
 				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 232.41 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f85c91a3-6e32-4d40-9841-9abda1c17323")
+		(property "Reference" "#PWR089"
+			(at 236.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 228.6 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 232.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e3a408c-7ee5-481d-995f-3e017df14b85")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)

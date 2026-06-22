@@ -1,0 +1,69 @@
+Part Number(Digikey),Description,Manufacturer,Package,Reference,Qty,Value,Price(USD),Price Total,URL
+,,,,"C1,C2,C28,C39,C52,CIN1,CIN2,CIN3,CIN4",9,4.7u,,0,
+,,,,"C3,C4,C5",3,2.2u,,0,
+,Capacitors,,,"C6,C13,C14,C16",4,22n,,0,Labs
+,Capacitors,,,"C7,C8,C10,C15,C18,C19,C24,C25,C26,C27,C34,C35,C37,C45,C46,C47,C51,C53,C55,C56,C57,C58,C59,C60,C61,C62",26,100n,,0,Labs
+,Capacitors,,,C9,1,1.5n,,0,Labs
+,,,,"C11,C12,C17,C21,C22,C23,CVCC1,CVCC2",8,1u,,0,
+,,,,L2,,,,0,
+,,,,"C20,C54,COUT1,COUT2,COUT3,COUT7",6,10u,,0,
+,,,,"C29,C31,C40,C42",4,100p,,0,
+,,,,"C30,C32,C36,C38,C41,C43,C48,C49",8,100u,,0,
+,,,,"C33,C44",2,300p,,0,
+,,,,C50,1,0.1u,,0,Labs
+,Capacitors,,,"CHF1,CHF2",2,220n,,0,
+,,,,COUT4,1,220u,,0,
+,,,,"COUT5,COUT6",2,22u,,0,
+N/A,Diodes,N/A,,"D1,D2,D3,D4",4,1N4007,,0,Labs?
+,Fuses,,,"F1,F2,F3,F4",4,T4A,,0,
+,Audio Jack In,,,J1,1,Conn_01x03_Pin,1.85,1.85,https://www.digikey.co.za/en/products/detail/same-sky-formerly-cui-devices/SJ1-3513/738683
+,Power Input from supplies,,,J2,1,Main Power In,,0,
+,LCD Connector,,,J3,1,LCD I2C,,0,
+,Fan TACH and PWM Signals,,,J4,1,Fan Tach and PWM,,0,
+,Fan Power and Ground,,,J5,1,Fan Power and GND,,0,
+,Temperature VP and VN,,,J6,1,VP and VN,,0,
+,Debug Connector,,,J7,1,DEBUG,,0,
+,Power To PA,,,J8,1,Power To Amp,,0,
+,Power in PA,,,J9,1,Power In,,0,
+,Signal From EQ,,,J10,1,PA_IN,,0,
+,EQ Out,,,J11,1,EQ_OUT,,0,
+,Speakers connector,,,J12,1,Speakers,,0,
+,Power Rail Inductor,,,L1,1,33u,,0,
+N/A,Amplifier Transistors,N/A,,"Q1,Q2,Q4,Q6,Q11,Q13,Q14,Q16",8,BC546,,0,Labs?
+,Current Mirror Transistor Pair,,,"Q3,Q12",2,BCM846BS-7,0.25,0.5,https://www.digikey.co.za/en/products/detail/diodes-incorporated/BCM846BS-7/10295097
+,PA Transistors,,,"Q5,Q7,Q15,Q18",4,BD140,1.81,7.24,https://www.digikey.co.za/en/products/detail/stmicroelectronics/BD140/1037683
+,Power Transistor NPN,,,"Q8,Q20",2,TIP35,3.89,7.78,https://www.digikey.co.za/en/products/detail/stmicroelectronics/TIP35C/603634
+,PA Transistors,,,"Q9,Q17",2,BD139,1.71,3.42,https://www.digikey.co.za/en/products/detail/stmicroelectronics/BD139/1037682
+,Power Transistor PNP,,,"Q10,Q19",2,TIP36,3.72,7.44,https://www.digikey.co.za/en/products/detail/stmicroelectronics/TIP36C/603629
+N/A,Temp Sensor Transistor,N/A,,Q21,1,2N3904,,0,Labs
+N/A,Resistors,N/A,,"R1,R2,R11,R12,R49,R50,R51,R52",8,10k,,0,Labs
+N/A,Resistors,N/A,,"R3,R5,R8,R10",4,470,,0,Labs
+N/A,Resistors,N/A,,"R4,R25,R26,R40,R41",5,3.3k,,0,Labs
+N/A,Resistors,N/A,,"R6,R7,R9,R48,RFBT1,RFBT2",6,100k,,0,Labs
+N/A,Resistors,N/A,,"R13,R16",2,2.7k,,0,Labs
+N/A,Resistors,N/A,,"R14,R15,R53",3,220,,0,Labs
+N/A,Resistors,N/A,,"R17,R19,R22,R32,R34,R39",6,1k,,0,Labs
+N/A,Resistors,N/A,,"R18,R23,R33,R38",4,22k,,0,Labs
+N/A,Resistors,N/A,,"R20,R35",2,27k,,0,Labs
+N/A,Resistors,N/A,,"R21,R37",2,1.8k,,0,Labs
+N/A,Resistors,N/A,,"R24,R36",2,560,,0,Labs
+N/A,Resistors,N/A,,"R27,R30,R42,R43",4,270,,0,Labs
+,Specific Resistor,,,"R28,R29,R44,R45",4,0.33,,0,
+,Specific Resistor,,,"R31,R46",2,10,,0,
+N/A,Resistors,N/A,,R47,1,6.8k,,0,Labs
+,Specific Resistor,,,RFBB1,1,24.9k,,0,
+,Specific Resistor,,,RFBB2,1,9.09k,,0,
+,Button,,,SW1,1,SW_Push,0.35,0.35,https://www.digikey.co.za/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150
+N/A,Op Amp,N/A,,"U1,U2,U3,U4,U5,U6",6,TL081,0,0,Labs
+,12V and 5V buck converters,,,"U7,U8",2,LMR36520FADDAR,3.26,6.52,https://www.digikey.co.za/en/products/detail/texas-instruments/LMR36520FADDAR/11617629
+,3.3V Regulator,,,U9,1,TLV75533PDBVR,0.42,0.42,https://www.digikey.co.za/en/products/detail/texas-instruments/TLV75533PDBVR/9356541
+,15V regulator,,,U10,1,LM317_TO-220,1.04,1.04,https://www.digikey.co.za/en/products/detail/stmicroelectronics/LM317T/591677
+, -15V regulator,,,U11,1,LM337_TO220,2.26,2.26,https://www.digikey.co.za/en/products/detail/texas-instruments/LM337T-NOPB/6222
+,Microcontroller,,,U12,1,STM32G031K8Tx,2.41,2.41,https://www.digikey.co.za/en/products/detail/stmicroelectronics/STM32G031K8T6/10300267
+,Dual Gang Linear Pot,,,"RV5,RV6,RV7",3,10k,2.4,7.2,https://www.digikey.co.za/en/products/detail/bourns-inc/PTD902-2215K-B103/24635169
+,Dual Gang Logarithmic Pot,,,RV8,1,10k,2.4,2.4,https://www.digikey.co.za/en/products/detail/bourns-inc/PTD902-2015K-A103/3820463
+,Trimmer Pot,,,"RV1,RV2",2,1k,2.44,4.88,https://www.digikey.co.za/en/products/detail/bourns-inc/3296W-1-102LF/1088044
+,LCD Screen,,,N/A,1,N/A,29.98,29.98,https://www.digikey.co.za/en/products/detail/newhaven-display-intl/NHD-0420E2Z-FSW-GBW/2165855
+,LCD SPI Adaptor,,,N/A,1,N/A,9.95,9.95,https://www.digikey.co.za/en/products/detail/adafruit-industries-llc/292/5761214
+,Fans,,,N/A,4,N/A,10.27,41.08,https://www.digikey.co.za/en/products/detail/delta-electronics/AUC0512DB-AF00/2560614
+,Temperature sensor,,,LMT01,1,,,0,Labs
