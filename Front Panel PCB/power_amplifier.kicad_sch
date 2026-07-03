@@ -3021,6 +3021,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VEE"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VEE"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VEE\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VEE_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VEE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 47.625 20.955)
@@ -5650,29 +5777,9 @@
 		)
 		(uuid "ffcb861a-ced1-440f-a42d-14d1067a9deb")
 	)
-	(label "Out+"
+	(global_label "Out+"
+		(shape input)
 		(at 289.56 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51e62d20-79e9-4c67-b5c6-f2603959fe4b")
-	)
-	(label "Out-"
-		(at 288.29 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2f446db-4831-4a15-8530-dce575357aa9")
-	)
-	(global_label "V-"
-		(shape input)
-		(at 288.29 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5680,33 +5787,9 @@
 			)
 			(justify left)
 		)
-		(uuid "18e29060-57d5-4d5e-83a0-721abca13876")
+		(uuid "003ced37-9fc0-43f4-99c9-f883f2732be7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.9362 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V+"
-		(shape input)
-		(at 294.64 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "362cda73-30f5-45c6-ba76-77368a77046c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.2862 31.75 0)
+			(at 297.3228 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,9 +5945,9 @@
 			)
 		)
 	)
-	(global_label "V+"
+	(global_label "Out-"
 		(shape input)
-		(at 287.02 143.51 0)
+		(at 288.29 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5872,9 +5955,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b52e9c79-fd89-4aff-9b09-b05bccd4c858")
+		(uuid "df3282ca-6a87-4bf3-8e87-db686660b7f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.6662 143.51 0)
+			(at 296.0528 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5883,78 +5966,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "V-"
-		(shape input)
-		(at 354.33 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc4960b2-beb2-42b8-a863-068e1577e379")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.6838 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "V-"
-		(shape input)
-		(at 287.02 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1b26e70-265e-4840-97ae-e9d62d07620b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.6662 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V+"
-		(shape input)
-		(at 354.33 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fdcd5ee1-d9e1-414e-9fa2-44dd7e19b7d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.6838 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5992,7 +6003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
 			(at 251.46 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +6113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 169.2148 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6184,7 +6195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 276.098 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C101J5GACTU:CAPC2012X88N"
 			(at 176.8348 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6346,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 280.67 245.618 90)
 			(hide yes)
 			(show_name no)
@@ -6426,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 82.55 197.358 90)
 			(hide yes)
 			(show_name no)
@@ -6696,7 +6707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 272.0848 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 71.12 194.6148 0)
 			(hide yes)
 			(show_name no)
@@ -6858,7 +6869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C101J5GACTU:CAPC2012X88N"
 			(at 175.5648 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6938,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 285.75 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -7130,7 +7141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.108 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -7212,7 +7223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 274.828 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -7294,7 +7305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
 			(at 249.428 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 361.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C101J5GACTU:CAPC2012X88N"
 			(at 87.9348 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7540,7 +7551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C101J5GACTU:CAPC2012X88N"
 			(at 86.6648 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 177.8 82.042 90)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +7823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C301J5GACTU:CAPC2012X88N"
 			(at 218.7448 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7892,7 +7903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 115.57 82.042 90)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +7983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 176.53 193.802 90)
 			(hide yes)
 			(show_name no)
@@ -8054,7 +8065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 141.478 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -8511,7 +8522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 100.838 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -8593,7 +8604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 170.688 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -8863,7 +8874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 138.938 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -8912,6 +8923,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 287.02 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66b64bdf-7d02-4154-9f31-65a6bee64b35")
+		(property "Reference" "#PWR095"
+			(at 283.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 290.83 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 287.02 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9256914-1d23-47c6-9890-a022517ecebc")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 246.38 191.77 180)
 		(unit 1)
@@ -8945,7 +9035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
 			(at 248.158 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 167.9448 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -9109,7 +9199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PHOENIX_1757242:PHOENIX_1757242"
 			(at 358.14 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9191,7 +9281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1829167:PHOENIX_1829167"
 			(at 359.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9276,7 +9366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 272.0848 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -9325,6 +9415,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 294.64 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d6caf99-b26e-49b5-ac49-4a7b9e579517")
+		(property "Reference" "#PWR094"
+			(at 290.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 298.45 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 294.64 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "438a7fe0-be1c-469c-92f3-3bd09d423901")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 231.14 116.84 180)
 		(unit 1)
@@ -9358,7 +9527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 232.918 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -9440,7 +9609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 287.9852 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +9880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 189.23 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9827,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 72.39 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +10078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 192.278 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -9991,7 +10160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 229.108 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 202.8952 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10155,7 +10324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 191.008 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -10237,7 +10406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 191.008 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -10319,7 +10488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 191.008 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -10446,6 +10615,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 354.33 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fade067-8446-437c-bedd-91ac736c1edf")
+		(property "Reference" "#PWR093"
+			(at 358.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 350.52 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 354.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03572c20-b5ae-4b35-a957-761241ab0a29")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 195.58 270)
 		(unit 1)
@@ -10477,7 +10725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 114.3 193.802 90)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 281.94 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -10639,7 +10887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 192.278 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -10721,7 +10969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 171.958 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -10882,7 +11130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
 			(at 250.19 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +11240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 201.6252 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -11153,7 +11401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11271,7 +11519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 287.9852 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -11464,7 +11712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 142.24 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -11552,7 +11800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.82 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -11821,6 +12069,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 288.29 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af86e0e9-b266-4cfe-ada7-58157ac58363")
+		(property "Reference" "#PWR096"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 292.1 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1db80733-026a-42ec-8299-bdb373c64453")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 105.41 0)
 		(unit 1)
@@ -11932,7 +12259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 192.278 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -12203,7 +12530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
 			(at 250.19 222.885 0)
 			(hide yes)
 			(show_name no)
@@ -12314,7 +12641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
 			(at 251.46 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -12424,7 +12751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 140.208 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -12545,6 +12872,85 @@
 			(project "FrontPanelDesign"
 				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 354.33 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d088c0b3-662b-46d1-988a-91fe83deea66")
+		(property "Reference" "#PWR092"
+			(at 358.14 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 350.52 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 354.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "219c6a5a-a63c-432c-a1ac-e0e515e75855")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -12694,7 +13100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 273.3548 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12743,6 +13149,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 287.02 243.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3c44302-58fa-4342-bf6d-462e976bb0d5")
+		(property "Reference" "#PWR097"
+			(at 283.21 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 290.83 243.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 287.02 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4dd06aa-5cd7-4407-a9b0-d9a1a538e035")
+		)
+		(instances
+			(project "FrontPanelDesign"
+				(path "/1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 273.05 156.21 180)
 		(unit 1)
@@ -12776,7 +13261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 272.0848 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12858,7 +13343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 230.378 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -12940,7 +13425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C0805C301J5GACTU:CAPC2012X88N"
 			(at 217.4748 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13022,7 +13507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
 			(at 248.158 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -13104,7 +13589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 273.3548 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13186,7 +13671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 231.648 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -13379,7 +13864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 289.2552 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13461,7 +13946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 140.208 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -13543,7 +14028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 273.3548 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13625,7 +14110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
 			(at 249.428 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -13705,7 +14190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 280.67 145.288 90)
 			(hide yes)
 			(show_name no)
@@ -13788,7 +14273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 143.51 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13878,7 +14363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 289.2552 114.3 0)
 			(hide yes)
 			(show_name no)

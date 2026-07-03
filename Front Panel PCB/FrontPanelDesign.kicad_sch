@@ -263,6 +263,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2580,6 +2732,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 74.93) (xy 255.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404f07bc-d536-4ec4-b083-016591269355")
+	)
+	(wire
+		(pts
 			(xy 198.12 162.56) (xy 217.17 162.56)
 		)
 		(stroke
@@ -2897,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "91286d00-39aa-433a-a090-df6792ab81e7")
+	)
+	(wire
+		(pts
+			(xy 255.27 74.93) (xy 255.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951e8bae-c7a9-4163-987b-6b52beb11f31")
 	)
 	(wire
 		(pts
@@ -3408,65 +3580,29 @@
 		)
 		(uuid "fb473ebf-955a-4242-be46-80e5a0005435")
 	)
-	(label "AudioR"
-		(at 81.28 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "077b8126-6245-42b7-8aaf-00919c087dd3")
-	)
-	(label "In+"
+	(global_label "In+"
+		(shape input)
 		(at 318.77 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "0da9133a-266f-4b21-acc2-75c797b26ee8")
-	)
-	(label "AudioL"
-		(at 81.28 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "0673d5f0-2830-4d94-9717-da0af545cd15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.0814 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "533fa83f-90a1-4707-ae68-9294fa894dbf")
-	)
-	(label "In-"
-		(at 318.77 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "850a633b-760e-493d-b00c-6b4317db1677")
-	)
-	(label "AudioR"
-		(at 350.52 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93a603bf-8661-40a8-bc6e-828eef636bad")
-	)
-	(label "AudioL"
-		(at 350.52 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e73666af-a558-4b15-a1d6-5b0b49fe9c6f")
 	)
 	(global_label "In-"
 		(shape input)
@@ -3489,6 +3625,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "In-"
+		(shape input)
+		(at 318.77 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e579240-45dc-49fd-bb58-7f0a1c99a316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.0814 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3540,6 +3700,30 @@
 			)
 		)
 	)
+	(global_label "AudioR"
+		(shape input)
+		(at 81.28 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c05a8de-deb5-416b-a899-71da190fa0c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.8844 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Bass"
 		(shape output)
 		(at 210.82 88.9 0)
@@ -3564,6 +3748,54 @@
 			)
 		)
 	)
+	(global_label "AudioL"
+		(shape input)
+		(at 81.28 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f1af243-e6bd-46e4-aae5-233fc83a3d27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.1263 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AudioL"
+		(shape input)
+		(at 350.52 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a019f32f-b929-4d75-b96b-b6467c7927d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.3663 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Mid"
 		(shape output)
 		(at 210.82 148.59 0)
@@ -3585,6 +3817,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "AudioR"
+		(shape input)
+		(at 350.52 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4b41057-54d0-42f7-9ff8-068442a66073")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.1244 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3643,7 +3899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 217.17 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 209.2452 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +4081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 355.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3904,7 +4160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 243.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4001,7 +4257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 199.898 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -4081,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 200.66 126.6952 0)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 199.0852 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -4245,7 +4501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 199.0852 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4714,7 +4970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 200.66 186.3852 0)
 			(hide yes)
 			(show_name no)
@@ -4951,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 213.36 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -5110,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 213.36 172.4152 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 240.03 75.8952 0)
 			(hide yes)
 			(show_name no)
@@ -5427,7 +5683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 213.36 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -5507,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 107.95 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -5586,7 +5842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 217.17 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5763,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.99 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +6099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 213.36 230.8352 0)
 			(hide yes)
 			(show_name no)
@@ -5925,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 187.6552 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTD902:Bourns_PTD902_Dual_Horizontal"
 			(at 198.12 202.565 0)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE_A1HN2R2U:CAPPRD200W50D500H1100"
 			(at 197.1548 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6393,7 +6649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTD902:Bourns_PTD902_Dual_Horizontal"
 			(at 255.905 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTD902:Bourns_PTD902_Dual_Horizontal"
 			(at 198.12 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -6689,7 +6945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 199.0852 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6848,7 +7104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 119.38 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -6897,6 +7153,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 186.69 95.25 180)
 		(unit 1)
@@ -6930,7 +7187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE_A1HN2R2U:CAPPRD200W50D500H1100"
 			(at 185.7248 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7168,7 +7425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SJ1_3513:CUI_SJ1-3513"
 			(at 374.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7411,7 +7668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 192.7352 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +7750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 219.4052 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 200.66 244.8052 0)
 			(hide yes)
 			(show_name no)
@@ -7652,7 +7909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 199.898 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -7810,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTD902:Bourns_PTD902_Dual_Horizontal"
 			(at 198.12 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -8035,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 290.83 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -8194,7 +8451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 293.37 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8370,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 220.98 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -8767,7 +9024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE_A1HN2R2U:CAPPRD200W50D500H1100"
 			(at 209.8548 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8846,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 199.898 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -8926,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 213.36 112.7252 0)
 			(hide yes)
 			(show_name no)
@@ -9084,7 +9341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 148.59 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9184,7 +9441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 199.0852 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9341,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 217.17 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9438,7 +9695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 278.13 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -9520,7 +9777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 202.8952 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -9600,7 +9857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 147.32 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -9680,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 107.95 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +10096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 119.38 80.518 90)
 			(hide yes)
 			(show_name no)

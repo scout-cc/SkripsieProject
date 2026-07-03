@@ -439,9 +439,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "warning",
+      "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "warning",
+      "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -712,7 +712,7 @@
         "uuid": "2c485bcd-ad9d-4f3d-9048-702c9acf2265"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR92-97",
     "variants": []
   },
   "sheets": [

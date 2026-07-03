@@ -1841,145 +1841,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -3103,7 +2964,7 @@
 		)
 		(uuid "a3b8808a-0af9-4043-bf1e-b16efcb23692")
 	)
-	(text "12V Regulator"
+	(text "FAN POWER[5V]"
 		(exclude_from_sim no)
 		(at 28.194 55.626 0)
 		(effects
@@ -3238,12 +3099,6 @@
 		(uuid "4f3a2404-36ea-4b4b-9826-947eab965dc6")
 	)
 	(junction
-		(at 158.75 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52275149-d6a0-4fcb-a37f-6312ffc583e8")
-	)
-	(junction
 		(at 158.75 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3292,12 +3147,6 @@
 		(uuid "749aa042-8b2f-4e43-b48b-95e9ff10d6c9")
 	)
 	(junction
-		(at 185.42 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76b067aa-74db-4391-9f12-1ad0ab70331e")
-	)
-	(junction
 		(at 33.02 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3310,22 +3159,10 @@
 		(uuid "7b432378-61d8-445e-a328-173c5d22f1f5")
 	)
 	(junction
-		(at 144.78 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82c5cec2-ed68-447f-8d96-4ef6531756c8")
-	)
-	(junction
 		(at 52.07 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e729a9-1b18-4e97-bf60-3da83015a1d5")
-	)
-	(junction
-		(at 171.45 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84342e34-59f3-46ad-a366-321e998f6c14")
 	)
 	(junction
 		(at 217.17 105.41)
@@ -3368,12 +3205,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a162bf7a-29a3-4a71-942e-25b48a840d5a")
-	)
-	(junction
-		(at 185.42 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a187f24a-a7a0-45fa-9e19-c3299d3ba39e")
 	)
 	(junction
 		(at 265.43 82.55)
@@ -3436,7 +3267,7 @@
 		(uuid "baf1674d-c233-451e-a68a-db00d0db92b6")
 	)
 	(junction
-		(at 158.75 38.1)
+		(at 172.72 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd033369-c481-4de0-8b4f-2b39e38a3f43")
@@ -3508,7 +3339,7 @@
 		(uuid "f650ef49-5c50-4dd5-acda-adcf9355e8f4")
 	)
 	(junction
-		(at 171.45 30.48)
+		(at 185.42 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f67c9565-84c3-4feb-9e8a-cbae206e58ba")
@@ -3559,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 171.45 30.48)
+			(xy 172.72 30.48) (xy 185.42 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3959,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 171.45 38.1)
+			(xy 172.72 38.1) (xy 185.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4036,16 +3867,6 @@
 			(type default)
 		)
 		(uuid "5cf3dfeb-f882-4943-818d-316f54adb027")
-	)
-	(wire
-		(pts
-			(xy 144.78 30.48) (xy 158.75 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e740e4a-86cf-4efd-9783-f5e938376b0f")
 	)
 	(wire
 		(pts
@@ -4389,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 38.1) (xy 158.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "905f1cef-1cfe-43c0-9312-a95891426591")
-	)
-	(wire
-		(pts
 			(xy 109.22 165.1) (xy 118.11 165.1)
 		)
 		(stroke
@@ -4476,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "9bc69e5b-15d9-4cad-b782-51d8c1c9d047")
-	)
-	(wire
-		(pts
-			(xy 171.45 38.1) (xy 185.42 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c73f981-3dc8-4ef7-a81d-4987501131fd")
 	)
 	(wire
 		(pts
@@ -4989,16 +4790,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 30.48) (xy 185.42 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb478407-1bf4-4cfb-a011-80a67ac1bf3d")
-	)
-	(wire
-		(pts
 			(xy 78.74 81.28) (xy 72.39 81.28)
 		)
 		(stroke
@@ -5046,6 +4837,30 @@
 			(type default)
 		)
 		(uuid "fd8923f6-6c0e-4a41-8206-7820b8d54f06")
+	)
+	(global_label "FAN POWER"
+		(shape input)
+		(at 185.42 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6bad278-28ea-49ec-b859-ad56bf38ec1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.3514 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5159,7 +4974,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1829167:PHOENIX_1829167"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5244,7 +5059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 47.9552 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5326,7 +5141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 45.4152 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5408,7 +5223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.952 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -5638,7 +5453,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 171.45 34.29 0)
+		(at 185.42 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5649,7 +5464,7 @@
 		(fields_autoplaced yes)
 		(uuid "18423179-645b-4bbf-97a5-a3807365d8fd")
 		(property "Reference" "COUT2"
-			(at 175.26 32.1309 0)
+			(at 189.23 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5659,8 +5474,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 175.26 34.6709 0)
+		(property "Value" "22u"
+			(at 189.23 34.6709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5670,8 +5485,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.4152 38.1 0)
+		(property "Footprint" "GCM32EC71H106KA03L:CAP_GCM32_MUR"
+			(at 186.3852 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +5497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 34.29 0)
+			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +5508,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 171.45 34.29 0)
+			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 62.23 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5954,88 +5769,6 @@
 			(project "FrontPanelDesign"
 				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 144.78 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2269a572-6361-4c25-9942-a4d4dc6ca4bb")
-		(property "Reference" "COUT7"
-			(at 148.59 32.1309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 148.59 34.6709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 145.7452 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 144.78 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e564343c-c5f6-4d2d-9280-8d3c0a136113")
-		)
-		(pin "1"
-			(uuid "dc35899b-a7f5-45a2-90ba-ae1b6f2fbe82")
-		)
-		(instances
-			(project "FrontPanelDesign"
-				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
-					(reference "COUT7")
 					(unit 1)
 				)
 			)
@@ -6232,7 +5965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 73.3552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6360,7 +6093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 158.75 34.29 0)
+		(at 172.72 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6371,7 +6104,7 @@
 		(fields_autoplaced yes)
 		(uuid "360cad55-1102-4704-b468-fe0e83bde3d4")
 		(property "Reference" "COUT1"
-			(at 162.56 32.1309 0)
+			(at 176.53 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6381,8 +6114,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 162.56 34.6709 0)
+		(property "Value" "22u"
+			(at 176.53 34.6709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6392,8 +6125,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 159.7152 38.1 0)
+		(property "Footprint" "GCM32EC71H106KA03L:CAP_GCM32_MUR"
+			(at 173.6852 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +6137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 34.29 0)
+			(at 172.72 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +6148,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 158.75 34.29 0)
+			(at 172.72 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 254.9652 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6803,7 +6536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 110.1852 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7143,7 +6876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 109.22 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -7225,7 +6958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 123.952 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -7432,7 +7165,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 38.1 0)
+		(at 172.72 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7443,7 +7176,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ab4c5d4-c0b6-4b4d-8290-e08c946510ed")
 		(property "Reference" "#PWR027"
-			(at 144.78 44.45 0)
+			(at 172.72 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 43.18 0)
+			(at 172.72 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7464,7 +7197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 38.1 0)
+			(at 172.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 38.1 0)
+			(at 172.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7486,7 +7219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 38.1 0)
+			(at 172.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,85 +7556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 185.42 27.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "649ecc4c-d8df-4f29-93c0-e9700dbdb6db")
-		(property "Reference" "#PWR029"
-			(at 181.61 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 189.23 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3a72f87-6941-4988-835c-fc6d2806eded")
-		)
-		(instances
-			(project "FrontPanelDesign"
-				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 118.11 27.94 90)
 		(unit 1)
@@ -7923,7 +7577,7 @@
 				)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "10u"
 			(at 118.11 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7933,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SRP_1038A:IND_SRP1038A_BRN"
 			(at 118.11 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8015,7 +7669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 56.8452 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GRM32ER71E226KE15L:G-32_MUR"
 			(at 145.7452 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +7833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 73.3552 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8339,7 +7993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCM32EC71H106KA03L:CAP_GCM32_MUR"
 			(at 232.1052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8421,7 +8075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GRM32ER71E226KE15L:G-32_MUR"
 			(at 159.7152 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8503,7 +8157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.312 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -8583,7 +8237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 109.22 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -8654,7 +8308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.09k"
+		(property "Value" "24.9k"
 			(at 128.27 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +8319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 123.952 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -8747,7 +8401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 215.392 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -8907,7 +8561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 82.2452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +8878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 195.2752 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9306,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 205.4352 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9450,88 +9104,6 @@
 			(project "FrontPanelDesign"
 				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 185.42 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab98cb28-31ad-4e35-be87-02ca7f2fb981")
-		(property "Reference" "COUT3"
-			(at 189.23 32.1309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 189.23 34.6709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.3852 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30578047-4f12-4b69-bc1e-647105349061")
-		)
-		(pin "1"
-			(uuid "4cc22802-11fe-4644-9157-15b37333efd4")
-		)
-		(instances
-			(project "FrontPanelDesign"
-				(path "/79626054-a4b7-4da2-97a1-0bdbb09a0a07"
-					(reference "COUT3")
 					(unit 1)
 				)
 			)
@@ -9806,7 +9378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1829167:PHOENIX_1829167"
 			(at 259.08 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SRP_1038A:IND_SRP1038A_BRN"
 			(at 118.11 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9971,7 +9543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 35.2552 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10053,7 +9625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 31.4452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10135,7 +9707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 98.7552 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10217,7 +9789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 33.9852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10561,7 +10133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.312 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +10371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 			(at 56.8452 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10960,7 +10532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 123.952 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -11300,7 +10872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 45.4152 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11461,7 +11033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 243.332 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -11620,7 +11192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 217.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11784,7 +11356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GCJ31CC71H475KA01L:CAPC3216X190N"
 			(at 33.9852 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11866,7 +11438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GJ821BR71H105KA12L:CAPC2012X135N"
 			(at 266.3952 99.06 0)
 			(hide yes)
 			(show_name no)

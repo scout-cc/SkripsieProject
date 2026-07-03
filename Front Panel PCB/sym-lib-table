@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Skirspie Components") (type "KiCad") (uri "C:/Users/karlh/SkripsieProject/KiCADModels") (options "") (descr "Relevant Models and Symbols ETC"))
+)
