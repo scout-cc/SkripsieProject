@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "Rev A"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -244,16 +244,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|990600|381000|c021be26-a923-47dc-aba7-f38072fb8447|b3901787-7e9c-4038-91e4-de55f8d12d3d|/79626054-a4b7-4da2-97a1-0bdbb09a0a07|/79626054-a4b7-4da2-97a1-0bdbb09a0a07|/79626054-a4b7-4da2-97a1-0bdbb09a0a07",
-        "Can be grounded"
-      ],
-      [
-        "pin_to_pin|990600|812800|ad42fd71-7ae5-4e40-94c8-d8cc726b0b31|b3901787-7e9c-4038-91e4-de55f8d12d3d|/79626054-a4b7-4da2-97a1-0bdbb09a0a07|/79626054-a4b7-4da2-97a1-0bdbb09a0a07|/79626054-a4b7-4da2-97a1-0bdbb09a0a07",
-        "Can be grounded"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -692,45 +683,54 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "FrontPanelDesign.kicad_sch",
-        "name": "Equiliser",
-        "uuid": "90c28ffe-2453-48dd-98ab-b449d9cdb78e"
-      },
-      {
-        "filename": "power_amplifier.kicad_sch",
-        "name": "Power Amplifier",
-        "uuid": "1a6f79fe-8355-4cd7-b4d4-2aea65ac191a"
-      },
-      {
-        "filename": "power_supplies.kicad_sch",
-        "name": "Power Supplies",
-        "uuid": "79626054-a4b7-4da2-97a1-0bdbb09a0a07"
-      },
-      {
-        "filename": "stlink.kicad_sch",
-        "name": "STM32 Setup",
-        "uuid": "2c485bcd-ad9d-4f3d-9048-702c9acf2265"
+        "filename": "amplifier.kicad_sch",
+        "name": "AMPLIFIER",
+        "uuid": "90a87c26-e370-4093-aa0b-bbd605aa66f2"
       }
     ],
-    "used_designators": "#PWR92-97",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "1a6f79fe-8355-4cd7-b4d4-2aea65ac191a",
-      "Power Amplifier"
+      "90a87c26-e370-4093-aa0b-bbd605aa66f2",
+      "AMPLIFIER"
     ],
     [
-      "90c28ffe-2453-48dd-98ab-b449d9cdb78e",
-      "Equiliser"
+      "fc804b0d-0897-43c0-aa45-73e410ea444a",
+      "EQUALISER"
     ],
     [
-      "79626054-a4b7-4da2-97a1-0bdbb09a0a07",
-      "Power Supplies"
+      "1c187844-a6ce-4df2-85bf-61f66b632371",
+      "POWER AMP SIDE A"
     ],
     [
-      "2c485bcd-ad9d-4f3d-9048-702c9acf2265",
-      "STM32 Setup"
+      "d89cab08-7bca-48d6-9494-79a27b61a047",
+      "POWER AMP SIDE B"
+    ],
+    [
+      "7251caf0-1406-4c32-8e31-9bc6f6427e57",
+      "STM32 SETUP"
+    ],
+    [
+      "f7fcaac9-d913-4b68-87aa-b0b58d8fcc80",
+      "FAN POWER[5V]"
+    ],
+    [
+      "674ec01b-84f7-43cb-98c1-05d5aec7316d",
+      "5V REGULATOR"
+    ],
+    [
+      "c06c0b5b-c04d-4c93-b005-52de8b7e6ba5",
+      "3.3V REGULATOR"
+    ],
+    [
+      "2eb6a5a3-3bf4-4e9d-a68b-65076ae23a60",
+      "-15V REGULATOR"
+    ],
+    [
+      "706775e3-75d3-40c5-9383-ae378b6e7e4f",
+      "15V REGULATOR"
     ]
   ],
   "text_variables": {},
