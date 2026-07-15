@@ -842,6 +842,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q23"
+				(at 5.08 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BCM846BS-7"
+				(at 5.08 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NPN transistor, 6 pin package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC546"
 			(pin_names
 				(offset 0)
@@ -1571,7 +1844,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_Dual_NPN_C2C1E1E2"
+		(symbol "Transistor_BJT:Q_Dual_NPN_NPN_C1E1C2E2B2B1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1581,8 +1854,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 7.62 1.27 0)
+			(property "Reference" "Q23"
+				(at 5.08 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1592,8 +1865,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_Dual_NPN_C2C1E1E2"
-				(at 7.62 -1.27 0)
+			(property "Value" "BCM846BS-7"
+				(at 5.08 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1603,20 +1876,19 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
 			(property "Datasheet" ""
-				(at -2.54 0 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1624,14 +1896,23 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "Double NPN transistors, current mirror configuration"
+			(property "Description" "Dual NPN transistor, 6 pin package"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1649,69 +1930,46 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NPN_C2C1E1E2_0_1"
-				(circle
-					(center -5.08 3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_0_1"
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -3.175 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.778) (xy -4.318 -1.27) (xy -4.826 -2.286) (xy -3.81 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -3.175 1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 3.048) (xy -5.08 3.048)
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1722,22 +1980,10 @@
 					)
 				)
 				(circle
-					(center 0 0)
-					(radius 0.254)
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1746,19 +1992,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 -1.905) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1766,38 +2000,14 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
-			(symbol "Q_Dual_NPN_C2C1E1E2_1_1"
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1_1"
 				(pin passive line
-					(at -5.08 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C2"
+					(name "E1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,10 +2022,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 5.08 270)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "C1"
+					(name "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1831,9 +2041,29 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E1"
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_C1E1C2E2B2B1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1849,7 +2079,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 90)
+					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E2"
 						(effects
@@ -1859,6 +2089,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2766,6 +3014,12 @@
 		(uuid "00d58c52-7e6e-41cd-b4d9-e33c7516fd9d")
 	)
 	(junction
+		(at 110.49 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14be6381-5a17-4bcc-9ad9-609796db46ca")
+	)
+	(junction
 		(at 71.12 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2808,7 +3062,7 @@
 		(uuid "33caec30-40d0-4952-88e3-23580c78d424")
 	)
 	(junction
-		(at 109.22 123.19)
+		(at 101.6 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33ef55ea-8e94-4726-89ef-9850dc0e2250")
@@ -2850,6 +3104,12 @@
 		(uuid "62f9072e-b04a-4d8f-8b0b-444bd1c07c19")
 	)
 	(junction
+		(at 119.38 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7384c17f-3766-423e-ad00-b160bc72671a")
+	)
+	(junction
 		(at 161.29 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2868,16 +3128,22 @@
 		(uuid "7c7e63b5-2da0-4231-8ef8-cf7870124b1a")
 	)
 	(junction
+		(at 119.38 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8548db51-a70e-4fa4-b133-7d99dfe6db9b")
+	)
+	(junction
+		(at 110.49 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86cc9ca7-9be9-4686-b884-205baf6a2725")
+	)
+	(junction
 		(at 161.29 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2a2993-c453-4e7f-80fe-6c9ddc9a8f70")
-	)
-	(junction
-		(at 119.38 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9edb2c7e-5e5f-4a2d-8983-5dcb1837bcd6")
 	)
 	(junction
 		(at 218.44 142.24)
@@ -3003,7 +3269,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 109.22 128.27)
+			(xy 101.6 123.19) (xy 101.6 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3020,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "03fb5d61-4aa8-46c8-8f75-13573ad63cc5")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 110.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2024f1-673d-41ca-b630-6b5ccfdff333")
 	)
 	(wire
 		(pts
@@ -3213,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 41.91) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baefcf2-1278-4d47-bb9b-604302cd80f9")
+	)
+	(wire
+		(pts
 			(xy 161.29 106.68) (xy 161.29 107.95)
 		)
 		(stroke
@@ -3403,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 128.27) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f38219e-3561-4ee2-8b5e-80afcb4ce987")
+	)
+	(wire
+		(pts
 			(xy 199.39 69.85) (xy 218.44 69.85)
 		)
 		(stroke
@@ -3433,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 142.24) (xy 119.38 142.24)
+			(xy 101.6 142.24) (xy 119.38 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3483,7 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 109.22 123.19)
+			(xy 101.6 121.92) (xy 101.6 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3493,13 +3789,33 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 109.22 142.24)
+			(xy 101.6 138.43) (xy 101.6 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e56514f-f46e-45e0-9a7e-3fc222b3f130")
+	)
+	(wire
+		(pts
+			(xy 110.49 133.35) (xy 110.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc30b7d-c79a-4982-be70-c7ea1d9b55d4")
+	)
+	(wire
+		(pts
+			(xy 110.49 133.35) (xy 111.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817228a4-15e8-414c-bab7-4eb9ff6f19fb")
 	)
 	(wire
 		(pts
@@ -3640,6 +3956,16 @@
 			(type default)
 		)
 		(uuid "ae5ad195-4dfa-4e30-8b4a-020f1419764d")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 101.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaa409d-5d87-44ca-b5cc-4dabc903a1d3")
 	)
 	(wire
 		(pts
@@ -3953,7 +4279,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 111.76 123.19)
+			(xy 101.6 123.19) (xy 111.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4953,8 +5279,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 109.22 114.3 0)
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_C1E1C2E2B2B1")
+		(at 116.84 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4963,30 +5289,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c301f92-b2ba-40ad-8ade-f61fc3e22c96")
-		(property "Reference" "#PWR050"
-			(at 109.22 118.11 0)
-			(hide yes)
+		(uuid "2baa7b22-f096-4e87-aa4f-ca4ac29ae855")
+		(property "Reference" "Q23"
+			(at 121.92 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VCC"
-			(at 109.22 109.22 0)
+		(property "Value" "BCM846BS-7"
+			(at 121.92 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 114.3 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 121.92 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 114.3 0)
+			(at 116.84 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,8 +5334,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 109.22 114.3 0)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 116.84 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,20 +5344,29 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "5"
+			(uuid "6e0c3627-a3b2-427b-9702-e0e7f06fa53e")
+		)
+		(pin "3"
+			(uuid "1a3f71b5-c31b-4cb3-a233-4943631aa84d")
+		)
+		(pin "2"
+			(uuid "361cabe5-da11-46a0-9d81-8e35f4cea511")
+		)
+		(pin "6"
+			(uuid "82d51283-e1a4-4e06-83fb-ae712bffd512")
+		)
+		(pin "4"
+			(uuid "42c96c23-6f3a-4fae-a0db-d2dd108f27d9")
 		)
 		(pin "1"
-			(uuid "874d32de-3f98-4b58-ac00-6d6fe3cc7bec")
+			(uuid "2c2e3fff-4921-4fa0-8cd7-af129a0461b3")
 		)
 		(instances
-			(project "FrontPanelDesign"
-				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2/1c187844-a6ce-4df2-85bf-61f66b632371"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
 			(project "amplifier"
 				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab/1c187844-a6ce-4df2-85bf-61f66b632371"
-					(reference "#PWR050")
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -6715,103 +7051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_C2C1E1E2")
-		(at 114.3 133.35 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94d173d3-d050-4c63-99b9-a4eada1f410b")
-		(property "Reference" "Q3"
-			(at 120.65 131.6989 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BCM846BS-7"
-			(at 120.65 134.2389 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Double NPN transistors, current mirror configuration"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01b0d4c1-cde4-41d8-9876-1b67d5fa6756")
-		)
-		(pin "3"
-			(uuid "bfb2eefa-798a-48ae-a026-f98a73d3c235")
-		)
-		(pin "4"
-			(uuid "c76a1363-d540-419e-9249-ae401f609722")
-		)
-		(pin "2"
-			(uuid "09dccc70-cff4-4e93-9958-a7c81fcbb663")
-		)
-		(instances
-			(project "FrontPanelDesign"
-				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2/1c187844-a6ce-4df2-85bf-61f66b632371"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-			(project "amplifier"
-				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab/1c187844-a6ce-4df2-85bf-61f66b632371"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BD140")
 		(at 199.39 106.68 0)
 		(mirror x)
@@ -8321,9 +8560,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 118.11 180)
-		(unit 1)
+		(lib_name "Q_Dual_NPN_NPN_C1E1C2E2B2B1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_C1E1C2E2B2B1")
+		(at 104.14 133.35 0)
+		(mirror y)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,31 +8572,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f62f0a91-5ccf-48de-8761-cc9b24ad1d81")
-		(property "Reference" "R20"
-			(at 111.76 116.8399 0)
+		(uuid "eb839c1e-f734-4972-bcd5-af6f55466520")
+		(property "Reference" "Q23"
+			(at 99.06 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "27k"
-			(at 111.76 119.3799 0)
+		(property "Value" "BCM846BS-7"
+			(at 99.06 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 110.998 118.11 90)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8607,101 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 118.11 0)
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6e0c3627-a3b2-427b-9702-e0e7f06fa53f")
+		)
+		(pin "3"
+			(uuid "1a3f71b5-c31b-4cb3-a233-4943631aa84e")
+		)
+		(pin "2"
+			(uuid "361cabe5-da11-46a0-9d81-8e35f4cea512")
+		)
+		(pin "1"
+			(uuid "82d51283-e1a4-4e06-83fb-ae712bffd513")
+		)
+		(pin "4"
+			(uuid "42c96c23-6f3a-4fae-a0db-d2dd108f27da")
+		)
+		(pin "6"
+			(uuid "2c2e3fff-4921-4fa0-8cd7-af129a0461b4")
+		)
+		(instances
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab/1c187844-a6ce-4df2-85bf-61f66b632371"
+					(reference "Q23")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f62f0a91-5ccf-48de-8761-cc9b24ad1d81")
+		(property "Reference" "R20"
+			(at 104.14 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "27k"
+			(at 104.14 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 103.378 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +8712,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 118.11 0)
+			(at 101.6 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

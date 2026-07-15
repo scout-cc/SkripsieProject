@@ -5255,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
+		(property "Footprint" "KiCADModels:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
 			(at 59.69 152.4 0)
 			(hide yes)
 			(show_name no)

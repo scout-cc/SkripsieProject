@@ -1166,7 +1166,7 @@
 	)
 	(global_label "In+"
 		(shape input)
-		(at 254 87.63 180)
+		(at 254 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1176,7 +1176,7 @@
 		)
 		(uuid "2562f9df-7f30-4496-a0ba-8b600b7a98cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.6886 87.63 0)
+			(at 247.6886 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1214,7 @@
 	)
 	(global_label "In-"
 		(shape input)
-		(at 254 90.17 180)
+		(at 254 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1224,7 +1224,7 @@
 		)
 		(uuid "b3e14fad-5a7d-4b54-b0c9-9cca246599f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.6886 90.17 0)
+			(at 247.6886 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1459,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 259.08 90.17 180)
+		(at 259.08 87.63 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1467,10 +1468,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28492b40-a358-4f3f-8c4f-ca0d79925ece")
 		(property "Reference" "J10"
-			(at 260.35 87.6299 0)
+			(at 260.35 90.1701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Value" "PA_IN"
-			(at 260.35 90.1699 0)
+			(at 260.35 87.6301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 259.08 90.17 0)
+			(at 259.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1503,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 90.17 0)
+			(at 259.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1514,7 +1514,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 259.08 90.17 0)
+			(at 259.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
