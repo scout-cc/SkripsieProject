@@ -3058,6 +3058,11 @@
 					(page "3")
 				)
 			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "8")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3103,6 +3108,11 @@
 			(project "FrontPanelDesign"
 				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2"
 					(page "9")
+				)
+			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "5")
 				)
 			)
 		)
@@ -3152,6 +3162,11 @@
 					(page "7")
 				)
 			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "3")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3197,6 +3212,11 @@
 			(project "FrontPanelDesign"
 				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2"
 					(page "10")
+				)
+			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "6")
 				)
 			)
 		)
@@ -3246,6 +3266,11 @@
 					(page "5")
 				)
 			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3291,6 +3316,11 @@
 			(project "FrontPanelDesign"
 				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2"
 					(page "8")
+				)
+			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "4")
 				)
 			)
 		)
@@ -3340,6 +3370,11 @@
 					(page "4")
 				)
 			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "9")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3387,6 +3422,11 @@
 					(page "6")
 				)
 			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "2")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3432,6 +3472,11 @@
 			(project "FrontPanelDesign"
 				(path "/90a87c26-e370-4093-aa0b-bbd605aa66f2"
 					(page "2")
+				)
+			)
+			(project "amplifier"
+				(path "/a27a8fa3-29ad-452d-9f63-3f19557e2bab"
+					(page "10")
 				)
 			)
 		)

@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\karlh\SkripsieProject\Spice Designs\P3A Adjusted\Draft2.net
-Start Time: Wed Jul 29 09:38:42 2026
+Start Time: Wed Jul 29 17:09:19 2026
 Options:plotwinsize=0
 solver = Normal
 Maximum thread count: 16
@@ -14,7 +14,7 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 14.038 seconds.
+Total elapsed time: 15.914 seconds.
 
 Files loaded:
 C:\Users\karlh\SkripsieProject\Spice Designs\P3A Adjusted\Draft2.net
