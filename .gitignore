@@ -7,3 +7,6 @@
 # Keep this folder and everything inside it
 !/Amplifier KiCAD/
 !/Amplifier KiCAD/**
+
+!/KiCADModels/
+!/KiCADModels/**
