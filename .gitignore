@@ -1,0 +1,9 @@
+# Ignore everything in the repository root
+/*
+
+# Keep the .gitignore file
+!/.gitignore
+
+# Keep this folder and everything inside it
+!/Amplifier KiCAD/
+!/Amplifier KiCAD/**
